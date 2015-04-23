@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+
+ <h1>Hello, world!</h1>
+
+ {% if request_payload %}
+		<h3>POSTed:</h3>
+		<p>
+			{{ request_payload }}
+		</p>
+ {% endif %}
+
+</body>
+</html>
