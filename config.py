@@ -1,4 +1,6 @@
-__author__ = 'sshaman'
+"""
+    Simple app config, just keep some exportable vaiables
+"""
 
 import os
 
